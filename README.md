@@ -1,1 +1,2 @@
 # odin-recipes-
+This project is a test on the knowledge I have learned throughout the odin project. The purpose of this website is to show multiple recipes, with different html skills utilized like coding images, links, text etc. 
