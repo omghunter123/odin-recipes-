@@ -11,7 +11,7 @@ h1 {
     margin: auto;
     text-align: center;
     position: static;
-    border-radius: 50pc;
+    border-radius: 50px;
 }
 
 img {
@@ -19,35 +19,37 @@ img {
   height: 500px;
   margin: 30px 10px;
   display: inline-block;
+  border-radius: 50px;
 }
 
-.h3special {
+.main-box {
   margin: 30px 10px;
   height: 50px;
-  width:20px;
+  width:600px;
   display: inline-block;
 }
 
-img, .h3special {
+img, .main-box {
   vertical-align: top;
 }
 
-
-.pspecial {
+a {
+    display: block;
+    text-align: center;
+    background-color: #DDB672;
+    border-radius: 30px;
+    width: 300px;
+    height: 25px;
+    margin: 0 auto;
+    text-decoration: none;
     color: black;
-    width: 500px;
-    height: 100px;
-    display: inline-block;
-    margin: 75px -30px;
+    font-weight: bold;
 }
 
-.h32special {
-    display: inline-block;
-    margin: 75px -30px;
 
-}
 
-.ulspecial {
-    display: inline-block;
-}
+
+
+
+
 

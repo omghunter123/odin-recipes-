@@ -12,19 +12,18 @@ h1 {
 
 
 .recipe-box {
-    background-color: #DDB672;
-    height: 500px;
-    width: 700px;
-    margin: 10px auto;
-     border-radius: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  padding: 40px;
 }
 
 
 img {
-    margin: 0px 10px;
-    width: 110px;
-    height: 110px;
-    border-radius: 20px;
+  width: 250px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .logo {
@@ -37,11 +36,11 @@ a {
 }
 
 h3 {
-    margin: 100px 20px;
-    background-color: bisque;
-    width: 150px;
-    height: 50px;
-    border-radius: 10px;
-    display: inline-block;
-    font-size: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 150px;
+  height: 30px;
 }
